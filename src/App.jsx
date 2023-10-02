@@ -2,7 +2,7 @@ import {  Hero,
   PopularProducts, 
   SuperQuality,
   Services,
-  Offers,
+  SpecialOffer,
   CustomerReviews,
   Subscribe,
   Footer
@@ -27,7 +27,7 @@ const App = () => {
         <Services />
       </section>
       <section className="padding">
-        <Offers />
+        <SpecialOffer />
       </section>
       <section className="bg-pale-blue padding">
         <CustomerReviews />
