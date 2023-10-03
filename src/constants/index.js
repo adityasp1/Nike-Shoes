@@ -1,10 +1,12 @@
 import { facebook, instagram, shieldTick, support, truckFast, twitter } from "../assets/icons";
-import { bigShoe1, bigShoe2, bigShoe3, customer1, customer2, shoe4, shoe5, shoe6, shoe7, thumbnailShoe1, thumbnailShoe2, thumbnailShoe3 } from "../assets/images";
+import { bigShoe1, bigShoe2, bigShoe3, customer1, customer2, customer3, shoe4, shoe5, shoe6, shoe7, thumbnailShoe1, thumbnailShoe2, thumbnailShoe3 } from "../assets/images";
+
+
 
 export const navLinks = [
     { href: "#home", label: "Home" },
-    { href: "#about-us", label: "About Us" },
     { href: "#products", label: "Products" },
+    { href: "#about-us", label: "About Us" },
     { href: "#contact-us", label: "Contact Us" },
 ];
 
@@ -74,38 +76,44 @@ export const reviews = [
     {
         imgURL: customer1,
         customerName: 'Mykhailo Mudryk',
-        rating: 4.5,
+        rating: 4.6,
         feedback: "The attention to detail and the quality of the product exceeded my expectations. Highly recommended!"
     },
     {
         imgURL: customer2,
         customerName: 'Samantha Kerr',
-        rating: 4.5,
+        rating: 4.4,
         feedback: "The product not only met but exceeded my expectations. I'll definitely be a returning customer!"
-    }
+    },
+    {
+        imgURL: customer3,
+        customerName: 'Frenkie De Jong',
+        rating: 4.5,
+        feedback: "The Nike Jordan sneakers exceeded my expectations. Their iconic design, comfort, and performance make them a must-have for any sneakerhead. Truly a masterpiece of footwear!"
+    },
 ];
 
 
 export const footerLinks = [
     {
-        title: "Products",
+        title: "About Nike",
         links: [
-            { name: "Air Force 1", link: "/" },
-            { name: "Air Max 1", link: "/" },
-            { name: "Air Jordan 1", link: "/" },
-            { name: "Air Force 2", link: "/" },
-            { name: "Nike Waffle Racer", link: "/" },
-            { name: "Nike Cortez", link: "/" },
+            { name: "News", link: "/" },
+            { name: "Careers", link: "/" },
+            { name: "Investors", link: "/" },
+            { name: "Sustainability", link: "/" },
+            { name: "Find a Store", link: "/" },
+            { name: "Student Discounts", link: "/" },
         ],
     },
     {
         title: "Help",
         links: [
-            { name: "About us", link: "/" },
             { name: "FAQs", link: "/" },
             { name: "How it works", link: "/" },
             { name: "Privacy policy", link: "/" },
             { name: "Payment policy", link: "/" },
+            { name: "Order Status", link:"/"},
         ],
     },
     {

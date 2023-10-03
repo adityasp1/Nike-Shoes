@@ -51,7 +51,7 @@ const Footer = () => {
          width={20}
          height={20}
          className="rounded-full m-0" />
-         <p>Copyright. All Rights Reserved. </p>
+         <p> 2023 Nike,Inc. All Rights Reserved </p>
         </div>
         <p className="font-montserrat cursor-pointer">Terms and Conditions</p>
       </div>
