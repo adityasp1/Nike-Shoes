@@ -11,8 +11,8 @@ const SuperQuality = () => {
 
         <h2 className='font-palanquin text-4xl capitalize  font-bold lg:max-w-lg'>
           We Provide You
-          <span className='text-coral-red '> Super</span> 
-          <span className='text-coral-red '> Quality </span> 
+          <span className='text-blue-700 '> Super</span> 
+          <span className='text-blue-700 '> Quality </span> 
           Shoes
         </h2>
         <p className='mt-4 lg:max-w-lg info-text'>
@@ -21,7 +21,7 @@ const SuperQuality = () => {
         <p className="mt-6 lg:max-w-lg info-text">
         Our dedication to detail and excellence ensures your satisfaction
         </p>
-        <div className="mt-11">
+        <div className="mt-11 ">
        <Button label="Download the Nike App Now"/>
         </div>
       </div>
